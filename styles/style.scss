@@ -90,10 +90,28 @@ header {
     border-style: inset ;
     border-color: grey;
     margin-bottom: 20px;
-    flex-grow:  ;
     }
 
     img{
         width: 200px;
     }
+}
+
+.main-videos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 20px;
+  align-items: center;
+  div{
+    border: solid grey 1px;
+    padding: 20px;
+  }
+    .video{
+      width: 350px;
+      height: 300px;
+    }
+
 }

@@ -84,8 +84,25 @@ header ul li {
   border-style: inset;
   border-color: grey;
   margin-bottom: 20px;
-  flex-grow: 2;
 }
 .main-blog img {
   width: 200px;
+}
+
+.main-videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 20px;
+  align-items: center;
+}
+.main-videos div {
+  border: solid grey 1px;
+  padding: 20px;
+}
+.main-videos .video {
+  width: 350px;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
